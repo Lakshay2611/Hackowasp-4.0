@@ -7,11 +7,13 @@
 .about
 {
     width: 100%;
+    height: 100%;
     padding: 90px opx;
     background: url(about.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-    .about img{
+.about img{
     height: 100%;
     width: 420px;
     
@@ -19,6 +21,17 @@
     .about-text{
     width: 550px;
     }
+p
+    {
+        flex-basis: 31%;
+        background: #d8eedb;
+       
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+
+        }
      .main{
     width: 1150px;
     max-width: 95%;
